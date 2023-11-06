@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const port = 3500;
 const fruitsRouter = require('./routes/fruits.js');
+const connect = require('./schemas/index.js');
+connect()
 
 app.use(express.json());
 

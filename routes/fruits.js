@@ -45,6 +45,8 @@ router.get("/fruits/:fruitName", (req,res) => {
     res.status(200).json({ product : result});
 })
 
+const Cart = require("../schemas/cart.js");
+
 
 
 
